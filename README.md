@@ -22,6 +22,7 @@ End the program.
 ### Program to find the Word Count using command line arguements.
 ### Developed by : JOTHIKRISHNAA V
 ### Register Number : 212223100017
+~~~python
 fname=input("Enter the file name")
 num_words=0
 with open(fname,'r') as f:
@@ -29,6 +30,7 @@ with open(fname,'r') as f:
     words=line.split()
     num_words+=len(words)
 print("Number of words: ",num_words)
+~~~
 ### OUTPUT:
 
 ![command line](<Screenshot 2024-01-02 170415.png>)
